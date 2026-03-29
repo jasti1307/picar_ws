@@ -1,0 +1,21 @@
+[3.388s] Invoking command in '/home/ubuntu/picar_ws/build/my_picar_driver': PYTHONPATH=/home/ubuntu/picar_ws/build/my_picar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/picar_ws/build/my_picar_driver/build --no-deps symlink_data
+[4.768s] running develop
+[5.603s] running egg_info
+[5.677s] writing my_picar_driver.egg-info/PKG-INFO
+[5.679s] writing dependency_links to my_picar_driver.egg-info/dependency_links.txt
+[5.680s] writing entry points to my_picar_driver.egg-info/entry_points.txt
+[5.681s] writing requirements to my_picar_driver.egg-info/requires.txt
+[5.682s] writing top-level names to my_picar_driver.egg-info/top_level.txt
+[5.839s] reading manifest file 'my_picar_driver.egg-info/SOURCES.txt'
+[5.843s] writing manifest file 'my_picar_driver.egg-info/SOURCES.txt'
+[5.922s] running build_ext
+[5.922s] Creating /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my-picar-driver.egg-link (link to .)
+[5.925s] Installing battery_node script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+[5.926s] Installing camera_driver script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+[5.927s] Installing car_driver script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+[5.928s] Installing safety_node script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+[5.929s] Installing ultrasonic_node script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+[5.930s] 
+[5.931s] Installed /home/ubuntu/picar_ws/build/my_picar_driver
+[5.931s] running symlink_data
+[6.090s] Invoked command in '/home/ubuntu/picar_ws/build/my_picar_driver' returned '0': PYTHONPATH=/home/ubuntu/picar_ws/build/my_picar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/picar_ws/build/my_picar_driver/build --no-deps symlink_data

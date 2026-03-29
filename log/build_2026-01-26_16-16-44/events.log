@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.001399] (my_picar_driver) JobQueued: {'identifier': 'my_picar_driver', 'dependencies': OrderedDict()}
+[0.006522] (my_picar_driver) JobStarted: {'identifier': 'my_picar_driver'}
+[0.098843] (-) TimerEvent: {}
+[0.199456] (-) TimerEvent: {}
+[0.300229] (-) TimerEvent: {}
+[0.400876] (-) TimerEvent: {}
+[0.501471] (-) TimerEvent: {}
+[0.602075] (-) TimerEvent: {}
+[0.702699] (-) TimerEvent: {}
+[0.803273] (-) TimerEvent: {}
+[0.903985] (-) TimerEvent: {}
+[1.004851] (-) TimerEvent: {}
+[1.105665] (-) TimerEvent: {}
+[1.206262] (-) TimerEvent: {}
+[1.307021] (-) TimerEvent: {}
+[1.408010] (-) TimerEvent: {}
+[1.508694] (-) TimerEvent: {}
+[1.609343] (-) TimerEvent: {}
+[1.709909] (-) TimerEvent: {}
+[1.810582] (-) TimerEvent: {}
+[1.911180] (-) TimerEvent: {}
+[2.011778] (-) TimerEvent: {}
+[2.112399] (-) TimerEvent: {}
+[2.212979] (-) TimerEvent: {}
+[2.313602] (-) TimerEvent: {}
+[2.414209] (-) TimerEvent: {}
+[2.514852] (-) TimerEvent: {}
+[2.615440] (-) TimerEvent: {}
+[2.716084] (-) TimerEvent: {}
+[2.816699] (-) TimerEvent: {}
+[2.917342] (-) TimerEvent: {}
+[3.017914] (-) TimerEvent: {}
+[3.118575] (-) TimerEvent: {}
+[3.219141] (-) TimerEvent: {}
+[3.319842] (-) TimerEvent: {}
+[3.420778] (-) TimerEvent: {}
+[3.435154] (my_picar_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_picar_driver', 'build', '--build-base', '/home/ubuntu/picar_ws/build/my_picar_driver/build', 'install', '--record', '/home/ubuntu/picar_ws/build/my_picar_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/picar_ws/src/my_picar_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': 'fe80::84f:6350:cd13:c98a%wlan0 63276 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/picar_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'WarpTerminal', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ubuntu/picar_ws/install/my_picar_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/picar_ws/build/my_picar_driver', 'SSH_CONNECTION': 'fe80::84f:6350:cd13:c98a%wlan0 63276 fe80::e65f:1ff:feb9:8ad1%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/picar_ws/build/my_picar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages:/home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[3.520965] (-) TimerEvent: {}
+[3.621632] (-) TimerEvent: {}
+[3.722368] (-) TimerEvent: {}
+[3.822970] (-) TimerEvent: {}
+[3.923602] (-) TimerEvent: {}
+[4.024175] (-) TimerEvent: {}
+[4.124791] (-) TimerEvent: {}
+[4.225417] (-) TimerEvent: {}
+[4.326019] (-) TimerEvent: {}
+[4.426655] (-) TimerEvent: {}
+[4.527225] (-) TimerEvent: {}
+[4.534219] (my_picar_driver) StdoutLine: {'line': b'running egg_info\n'}
+[4.616432] (my_picar_driver) StdoutLine: {'line': b'writing ../../build/my_picar_driver/my_picar_driver.egg-info/PKG-INFO\n'}
+[4.617794] (my_picar_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/my_picar_driver/my_picar_driver.egg-info/dependency_links.txt\n'}
+[4.619157] (my_picar_driver) StdoutLine: {'line': b'writing entry points to ../../build/my_picar_driver/my_picar_driver.egg-info/entry_points.txt\n'}
+[4.620879] (my_picar_driver) StdoutLine: {'line': b'writing requirements to ../../build/my_picar_driver/my_picar_driver.egg-info/requires.txt\n'}
+[4.621762] (my_picar_driver) StdoutLine: {'line': b'writing top-level names to ../../build/my_picar_driver/my_picar_driver.egg-info/top_level.txt\n'}
+[4.627407] (-) TimerEvent: {}
+[4.728104] (-) TimerEvent: {}
+[4.818378] (my_picar_driver) StdoutLine: {'line': b"reading manifest file '../../build/my_picar_driver/my_picar_driver.egg-info/SOURCES.txt'\n"}
+[4.821986] (my_picar_driver) StdoutLine: {'line': b"writing manifest file '../../build/my_picar_driver/my_picar_driver.egg-info/SOURCES.txt'\n"}
+[4.822800] (my_picar_driver) StdoutLine: {'line': b'running build\n'}
+[4.823355] (my_picar_driver) StdoutLine: {'line': b'running build_py\n'}
+[4.823982] (my_picar_driver) StdoutLine: {'line': b'copying my_picar_driver/camera_driver.py -> /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver\n'}
+[4.825689] (my_picar_driver) StdoutLine: {'line': b'running install\n'}
+[4.828254] (-) TimerEvent: {}
+[4.848566] (my_picar_driver) StdoutLine: {'line': b'running install_lib\n'}
+[4.928437] (-) TimerEvent: {}
+[4.938906] (my_picar_driver) StdoutLine: {'line': b'copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/camera_driver.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver\n'}
+[4.942646] (my_picar_driver) StdoutLine: {'line': b'byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/camera_driver.py to camera_driver.cpython-312.pyc\n'}
+[4.946536] (my_picar_driver) StdoutLine: {'line': b'running install_data\n'}
+[4.948091] (my_picar_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.028615] (-) TimerEvent: {}
+[5.058243] (my_picar_driver) StdoutLine: {'line': b"removing '/home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.063406] (my_picar_driver) StdoutLine: {'line': b'Copying ../../build/my_picar_driver/my_picar_driver.egg-info to /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver-0.0.0-py3.12.egg-info\n'}
+[5.067924] (my_picar_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[5.128799] (-) TimerEvent: {}
+[5.229452] (-) TimerEvent: {}
+[5.330036] (-) TimerEvent: {}
+[5.430662] (-) TimerEvent: {}
+[5.531286] (-) TimerEvent: {}
+[5.631956] (-) TimerEvent: {}
+[5.642734] (my_picar_driver) StdoutLine: {'line': b'Installing camera_driver script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver\n'}
+[5.643751] (my_picar_driver) StdoutLine: {'line': b'Installing car_driver script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver\n'}
+[5.645413] (my_picar_driver) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/picar_ws/build/my_picar_driver/install.log'\n"}
+[5.732423] (-) TimerEvent: {}
+[5.789181] (my_picar_driver) CommandEnded: {'returncode': 0}
+[5.832522] (-) TimerEvent: {}
+[5.837522] (my_picar_driver) JobEnded: {'identifier': 'my_picar_driver', 'rc': 0}
+[5.840369] (-) EventReactorShutdown: {}

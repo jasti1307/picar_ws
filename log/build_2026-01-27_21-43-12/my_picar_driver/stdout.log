@@ -1,0 +1,42 @@
+running develop
+Removing /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my-picar-driver.egg-link (link to .)
+running egg_info
+writing ../../build/my_picar_driver/my_picar_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_picar_driver/my_picar_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/my_picar_driver/my_picar_driver.egg-info/entry_points.txt
+writing requirements to ../../build/my_picar_driver/my_picar_driver.egg-info/requires.txt
+writing top-level names to ../../build/my_picar_driver/my_picar_driver.egg-info/top_level.txt
+reading manifest file '../../build/my_picar_driver/my_picar_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_picar_driver/my_picar_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_picar_driver/safety_node.py -> /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver
+copying my_picar_driver/teleop_gui.py -> /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver
+copying my_picar_driver/ultrasonic_node.py -> /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver
+copying my_picar_driver/car_driver.py -> /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver
+running install
+running install_lib
+creating /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/safety_node.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/camera_driver.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/teleop_gui.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/ultrasonic_node.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/__init__.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/car_driver.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/safety_node.py to safety_node.cpython-312.pyc
+byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/camera_driver.py to camera_driver.cpython-312.pyc
+byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/teleop_gui.py to teleop_gui.cpython-312.pyc
+byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/ultrasonic_node.py to ultrasonic_node.cpython-312.pyc
+byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/car_driver.py to car_driver.cpython-312.pyc
+running install_data
+copying resource/my_picar_driver -> /home/ubuntu/picar_ws/install/my_picar_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/picar_ws/install/my_picar_driver/share/my_picar_driver
+running install_egg_info
+Copying ../../build/my_picar_driver/my_picar_driver.egg-info to /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver-0.0.0-py3.12.egg-info
+running install_scripts
+Installing camera_driver script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+Installing car_driver script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+Installing safety_node script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+Installing ultrasonic_node script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+writing list of installed files to '/home/ubuntu/picar_ws/build/my_picar_driver/install.log'

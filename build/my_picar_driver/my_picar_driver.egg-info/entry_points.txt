@@ -1,0 +1,7 @@
+[console_scripts]
+battery_node = my_picar_driver.battery_node:main
+camera_driver = my_picar_driver.camera_driver:main
+car_driver = my_picar_driver.car_driver:main
+gray_scale_node = my_picar_driver.gray_scale_node:main
+safety_node = my_picar_driver.safety_node:main
+ultrasonic_node = my_picar_driver.ultrasonic_node:main

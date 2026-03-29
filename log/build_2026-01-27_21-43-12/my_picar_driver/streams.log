@@ -1,0 +1,51 @@
+[4.237s] Invoking command in '/home/ubuntu/picar_ws/build/my_picar_driver': PYTHONPATH=/home/ubuntu/picar_ws/build/my_picar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/picar_ws/build/my_picar_driver/build
+[5.519s] running develop
+[6.434s] Removing /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my-picar-driver.egg-link (link to .)
+[6.619s] Invoked command in '/home/ubuntu/picar_ws/build/my_picar_driver' returned '0': PYTHONPATH=/home/ubuntu/picar_ws/build/my_picar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/picar_ws/build/my_picar_driver/build
+[6.625s] Invoking command in '/home/ubuntu/picar_ws/src/my_picar_driver': PYTHONPATH=/home/ubuntu/picar_ws/build/my_picar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_picar_driver build --build-base /home/ubuntu/picar_ws/build/my_picar_driver/build install --record /home/ubuntu/picar_ws/build/my_picar_driver/install.log --single-version-externally-managed install_data --force
+[7.762s] running egg_info
+[7.837s] writing ../../build/my_picar_driver/my_picar_driver.egg-info/PKG-INFO
+[7.839s] writing dependency_links to ../../build/my_picar_driver/my_picar_driver.egg-info/dependency_links.txt
+[7.842s] writing entry points to ../../build/my_picar_driver/my_picar_driver.egg-info/entry_points.txt
+[7.843s] writing requirements to ../../build/my_picar_driver/my_picar_driver.egg-info/requires.txt
+[7.843s] writing top-level names to ../../build/my_picar_driver/my_picar_driver.egg-info/top_level.txt
+[8.007s] reading manifest file '../../build/my_picar_driver/my_picar_driver.egg-info/SOURCES.txt'
+[8.012s] writing manifest file '../../build/my_picar_driver/my_picar_driver.egg-info/SOURCES.txt'
+[8.013s] running build
+[8.013s] running build_py
+[8.014s] copying my_picar_driver/safety_node.py -> /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver
+[8.016s] copying my_picar_driver/teleop_gui.py -> /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver
+[8.018s] copying my_picar_driver/ultrasonic_node.py -> /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver
+[8.019s] copying my_picar_driver/car_driver.py -> /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver
+[8.021s] running install
+[8.044s] running install_lib
+[8.123s] creating /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+[8.124s] copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/safety_node.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+[8.125s] copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/camera_driver.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+[8.126s] copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/teleop_gui.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+[8.127s] copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/ultrasonic_node.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+[8.128s] copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/__init__.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+[8.129s] copying /home/ubuntu/picar_ws/build/my_picar_driver/build/lib/my_picar_driver/car_driver.py -> /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver
+[8.132s] byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/safety_node.py to safety_node.cpython-312.pyc
+[8.135s] byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/camera_driver.py to camera_driver.cpython-312.pyc
+[8.137s] byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/teleop_gui.py to teleop_gui.cpython-312.pyc
+[8.139s] byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/ultrasonic_node.py to ultrasonic_node.cpython-312.pyc
+[8.142s] byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/__init__.py to __init__.cpython-312.pyc
+[8.143s] byte-compiling /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/car_driver.py to car_driver.cpython-312.pyc
+[8.144s]   File "/home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver/car_driver.py", line 1
+[8.145s]     mport rclpy
+[8.145s]           ^^^^^
+[8.146s] SyntaxError: invalid syntax
+[8.146s] 
+[8.147s] running install_data
+[8.147s] copying resource/my_picar_driver -> /home/ubuntu/picar_ws/install/my_picar_driver/share/ament_index/resource_index/packages
+[8.148s] copying package.xml -> /home/ubuntu/picar_ws/install/my_picar_driver/share/my_picar_driver
+[8.148s] running install_egg_info
+[8.232s] Copying ../../build/my_picar_driver/my_picar_driver.egg-info to /home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages/my_picar_driver-0.0.0-py3.12.egg-info
+[8.239s] running install_scripts
+[8.833s] Installing camera_driver script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+[8.838s] Installing car_driver script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+[8.839s] Installing safety_node script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+[8.842s] Installing ultrasonic_node script to /home/ubuntu/picar_ws/install/my_picar_driver/lib/my_picar_driver
+[8.844s] writing list of installed files to '/home/ubuntu/picar_ws/build/my_picar_driver/install.log'
+[8.984s] Invoked command in '/home/ubuntu/picar_ws/src/my_picar_driver' returned '0': PYTHONPATH=/home/ubuntu/picar_ws/build/my_picar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/picar_ws/install/my_picar_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_picar_driver build --build-base /home/ubuntu/picar_ws/build/my_picar_driver/build install --record /home/ubuntu/picar_ws/build/my_picar_driver/install.log --single-version-externally-managed install_data --force
