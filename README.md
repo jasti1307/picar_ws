@@ -60,12 +60,3 @@ ros2 run my_picar_driver car_driver
 ros2 run my_picar_driver safety_node
 ```
 
-
-### Save and Push to GitHub
-After saving the file (Ctrl+O, Enter, Ctrl+X), run these commands to update your repository:
-
-```bash
-git add README.md
-git commit -m "-------"
-git push origin master
-```
